@@ -1,0 +1,7 @@
+
+    alias chrome=chrome  
+    chrome() {
+      arg="$1"
+      cmd.exe /C "C:\Program Files\Google\Chrome\Application\chrome.exe" file://wsl.localhost/kali-linux/$PWD/$1
+    }
+
